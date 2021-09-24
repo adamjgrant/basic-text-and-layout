@@ -10,17 +10,17 @@ html {
   color: var(--readable-black);
 }
 
-/* This should be removed eventually, just here to help me visualize */
-body {
-  width: 600px;
-  padding-top: 50px;
-  padding-left: 50px;
-}
-
-/* End */
 hr {
   border: 0;
   border-top: 1px solid var(--readable-black);
+}
+
+blockquote {
+  font-size: 1.25em;
+  font-style: italic;
+  border-left: 4px solid var(--readable-black);
+  padding-left: 15px;
+  margin-left: 0;
 }
 
 @media (prefers-color-scheme: dark) {

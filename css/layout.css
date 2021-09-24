@@ -1,5 +1,8 @@
+:root {
+  --layout-gutter: 5vw;
+}
+
 body {
-  width: 600px;
-  padding-top: 50px;
-  padding-left: 50px;
+  max-width: 600px;
+  margin: var(--layout-gutter);
 }
